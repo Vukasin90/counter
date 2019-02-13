@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #ffd54f;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("svdb.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+  
+  h1 {
+    font-weight: normal;
+    text-shadow: 1px 1px #fff;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #333;
+    text-shadow: 1px 1px #fff;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+    transition: all 500ms ease-in;
+    color: #333;
+    text-shadow: 1px 1px #fff;
+  }
+
+  @media (max-width: 890px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
